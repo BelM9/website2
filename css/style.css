@@ -3,13 +3,6 @@ body{
     font-family: 'poppins', sans-serif;
 }
 
-#logo {
-    display :flex;
-    width: 50px;
-    height: 50px;
-    width: 30%;
-}
-
 nav {
     display :flex;
     justify-content:space-around;
@@ -33,27 +26,29 @@ a {
     color:#42aea1;
 }
 
+#logo {
+    display :flex;
+    width: 50px;
+    height: 50px;
+    width: 30%;
+}
+
 #li-btn {
     display: flex;
     width: 100px; 
     height: 30px; 
     margin:0 auto;
     align-items : center;
-    text-align: center;
+    justify-content: center;
     border: 2px solid  #BEF1EB; 
     border-radius: 20px;
+    transition: 0.3s ease-in-out;
 }
 
 #li-btn:hover {
     background-color:#BEF1EB;
     color: white;
 }
-
-div {
-    display: flex;
-}
-
-
 
 
 
