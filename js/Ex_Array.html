@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Factorial</title>
+</head>
+
+<body>
+
+<p>maximum of 60-3-15-40-34-22 is :</p>
+
+<button onclick="myFunction(tab)">Clic to try</button>
+
+
+<script>
+
+function myFunction(tab) {
+
+    let max = tab[0];
+
+    for (let i = 1; i < tab.length; i++) {
+        
+        if (tab[i] > max) {
+            max = tab[i];
+        }
+    }
+
+    return max;
+  
+}
+
+const TabNbr = [6, 3, 60, 40, 34, 202];
+const Tabmax = myFunction(TabNbr);
+alert(Tabmax)
+</script>
+
+
+</body>
+</html>
