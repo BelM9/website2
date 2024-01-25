@@ -1,0 +1,24 @@
+@import 'base.scss';
+
+nav{
+    display : flex;
+    justify-content: space-around;
+
+    img{
+        width: 45px;
+        height: 45px;
+    }
+
+    ul{
+        display : flex;
+        justify-content: space-around;
+        width: 40%;
+        list-style: none;
+        li{
+            a{
+                color: $text-color;
+                text-decoration: none;
+            }
+        }
+    }
+}
